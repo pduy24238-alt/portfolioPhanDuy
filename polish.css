@@ -1,0 +1,87 @@
+/* Final polish: alignment, Vietnamese typography, atmospheric integration. */
+.section-heading{align-items:end;gap:32px}.section-heading>div{min-width:0}.section-heading h2{font-size:clamp(44px,6vw,84px);line-height:1.06;letter-spacing:-.02em;max-width:850px}.section-aside{flex:0 0 250px;line-height:1.7}.profile-section .section-heading h2{font-size:clamp(42px,5.4vw,76px)}.profile-layout{gap:48px;align-items:start}.profile-copy h3{margin-top:18px;font-size:30px;line-height:1.35}.profile-meta{column-gap:25px}.ability-detail h3 .mode-title{font-size:clamp(21px,2vw,28px);line-height:1.4}.ability-detail{min-width:0}.ability-detail li{line-height:1.6}.mission-selector{grid-template-columns:minmax(220px,.8fr) minmax(0,2fr);gap:36px;padding:32px 0;margin-bottom:40px}.mission-dial{max-width:300px;justify-self:start}.mission-preview{grid-template-columns:minmax(160px,.9fr) minmax(0,1.1fr);gap:28px;align-items:start}.selected-mission-image{aspect-ratio:1;height:auto!important;min-height:0!important}.selected-mission-image img{object-fit:cover!important;filter:saturate(.85) brightness(.9)!important}.mission-preview h3{margin-top:12px;font-size:clamp(25px,2.8vw,40px);line-height:1.2}.mission-preview p{font-size:15px;line-height:1.7}.mission-card{grid-template-columns:1fr 1.1fr;align-items:stretch}.mission-image{min-height:0;align-self:stretch}.mission-image>.visual-record{min-height:0;height:100%}.mission-image img{object-fit:cover!important;object-position:50% 45%!important}.mission-card[data-mission="0"] .mission-image img{object-position:65% 40%!important}.mission-card[data-mission="2"] .mission-image img{object-position:50% 48%!important}.mission-content{padding:32px;display:flex;flex-direction:column}.mission-content h3{font-size:clamp(28px,3vw,42px);line-height:1.2;margin:24px 0 14px}.mission-content>p{margin-top:0;line-height:1.75}.mission-metrics{gap:16px}.mission-metrics span{font-size:10px;line-height:1.5}.mission-foot{margin-top:auto;gap:16px;line-height:1.6}.mission-top{gap:16px;line-height:1.6}.mission-dialog-layout{align-items:start;gap:32px}.mission-dialog-layout>.dialog-image{height:auto;aspect-ratio:1;min-height:0}.mission-dialog-copy h2{line-height:1.2}.tool p{line-height:1.75}#archive .memory-caption{min-height:54px;align-items:baseline}#archive .memory-2{align-self:start;margin-top:90px}#archive .memory-4{align-self:end}.contact-layout h2{font-size:clamp(42px,5.4vw,76px);line-height:1.08}.contact-actions{flex-wrap:wrap}.contact-actions a,.contact-actions button{white-space:nowrap}.hero-note p{line-height:1.75}.hero-dna{width:210px;height:62vh;left:27%;opacity:.17}.environment-home .environment-haze{background:radial-gradient(ellipse at 30% 35%,#234f2e50,transparent 55%),radial-gradient(ellipse at 70% 75%,#183d2940,transparent 65%)}.environment-home .orbit-distant{left:-350px;top:10%;opacity:.55}
+.dormant-alien{overflow:hidden;opacity:.045!important;animation:ghost-breathe 18s ease-in-out infinite!important;mask-image:radial-gradient(ellipse at 50% 55%,#000 15%,transparent 70%);mix-blend-mode:screen}.dormant-alien img{filter:brightness(0) drop-shadow(0 0 2px #8cce7860)!important;animation:ghost-contour 18s ease-in-out infinite!important;opacity:.6;mask-image:linear-gradient(125deg,transparent 5%,#000 38%,#000 53%,transparent 75%)}.dormant-0{left:38%;top:-9%;width:40%;opacity:.035!important}.dormant-1{right:-30%;top:2%;width:85%}.dormant-2{left:-23%;top:-10%;width:42%;transform:rotate(8deg)}.dormant-3{left:25%;top:63%;width:65%;opacity:.025!important}.dormant-1 img{animation-delay:-5s!important}.dormant-2 img{animation-delay:-10s!important}.dormant-3 img{animation-delay:-14s!important}.atmospheric-alien{opacity:.025!important;overflow:hidden;mask-image:radial-gradient(ellipse,#000 10%,transparent 70%);mix-blend-mode:screen}.atmospheric-alien img{filter:brightness(.15) grayscale(1) sepia(1) hue-rotate(40deg) blur(1px)!important;mask-image:repeating-linear-gradient(#000 0 3px,transparent 3px 5px)}.atmosphere-bigChill{left:-17%;width:42%}.atmosphere-upgrade{right:-17%;width:55%}.alien-hologram img{mask-image:repeating-linear-gradient(#000 0 4px,#0008 4px 5px);filter:grayscale(1) brightness(.55) sepia(1) saturate(4) hue-rotate(38deg) contrast(1.25) drop-shadow(0 0 4px #79ff0040)!important}.environment-energy{mask-image:linear-gradient(90deg,transparent,#000 50%,transparent)}.matrix-energy-field{mask-image:linear-gradient(90deg,#000,transparent 92%);opacity:.1}.hero-energy-field{mask-image:linear-gradient(90deg,transparent,#000 35%,#000 80%,transparent)}
+@keyframes ghost-breathe{0%,100%{opacity:.025}50%{opacity:.06}}@keyframes ghost-contour{0%,100%{opacity:.2;transform:translateY(0)}50%{opacity:.65;transform:translateY(-8px)}}@media(max-width:1000px){.section-heading{align-items:start}.section-aside{flex-basis:210px}.mission-selector{grid-template-columns:240px 1fr;gap:24px}.mission-preview{grid-template-columns:1fr}.selected-mission-image{max-width:330px}.profile-layout{gap:30px}}@media(max-width:760px){.section-heading{display:block}.section-aside{margin-top:24px;max-width:100%}.section-heading h2,.profile-section .section-heading h2{font-size:clamp(34px,8vw,56px)}.mission-selector{grid-template-columns:1fr}.mission-dial{justify-self:center}.mission-preview{grid-template-columns:.9fr 1.1fr;gap:22px}.mission-card{grid-template-columns:1fr}.mission-image{aspect-ratio:1;min-height:0}.mission-content{padding:26px}.profile-layout{gap:32px}#archive .memory-2{margin-top:0}.contact-layout h2{font-size:clamp(38px,8vw,58px)}}@media(max-width:480px){.mission-preview{grid-template-columns:1fr}.selected-mission-image{max-width:none;width:100%}.section-heading h2,.profile-section .section-heading h2{font-size:34px;line-height:1.15}.profile-copy h3{font-size:25px}.mission-foot{flex-wrap:wrap}.mission-content h3{font-size:30px}.ability-detail h3 .mode-title{font-size:22px}.hero-dna{width:170px;height:48vh;left:-7%}.hero-note p{font-size:15px}.contact-layout h2{font-size:38px}}@media(prefers-reduced-motion:reduce){.dormant-alien,.dormant-alien img{animation:none!important}}
+
+html[lang=vi] h2,html[lang=vi] .profile-copy h3,html[lang=vi] .mission-content h3,html[lang=vi] .mission-preview h3,html[lang=vi] .mode-title,html[lang=vi] .achievement h3{font-family:Arial,'Inter',sans-serif;letter-spacing:-.025em}html[lang=vi] .section-heading h2{font-weight:800}.section-heading>div{flex:1}
+
+@media(min-width:761px){.omnitrix-nav{right:10px}.omnitrix-nav>button{width:48px;height:48px}.omnitrix-nav .device-symbol{width:30px;height:30px}.omnitrix-nav .mechanical-housing{transform:scale(.72)}.omnitrix-nav>button>span{top:58px;font-size:8px}.omnitrix-nav #nav-menu{right:66px}.section-aside{padding-right:14px}}
+
+@media(min-width:761px){.hero-activation{right:30%;bottom:12%}}
+
+/* Contact cleanup: keep radar, signals and particles as the visual focus. */
+#contact .contact-energy-field{display:none!important}
+#contact .environment-energy,#contact .atmospheric-alien{display:none!important}
+
+#contact .orbit-dna{opacity:.18}#contact .orbit-dna path{fill:none;stroke:#79ff00;stroke-width:1.2}#contact .orbit-dna line{stroke:#79ff0040;stroke-width:1}#contact .orbit-dna circle{fill:#79ff00}
+
+/* Remove cropped background curves from Contact; retain only the main radar. */
+#contact .environment-architecture,#contact .orbit-dna{display:none!important}
+
+/* Hero-only polish: readable genetic structure, no detached rotating wedge. */
+.hero .hero-scanner-beam{display:none!important}
+.hero .hero-dna{width:225px;opacity:.32}
+.hero .hero-dna .strand{stroke:#92da5e;stroke-width:2.5}
+.hero .hero-dna .bridge{stroke:#9edb7a;stroke-opacity:.7;stroke-width:1.2}
+.hero .hero-dna .node{fill:#bbef96}
+.hero .hero-dna .pulse{stroke:#d1ffae;stroke-width:3;filter:drop-shadow(0 0 3px #79ff0060);animation-duration:8s}
+.hero .hero-dna .helix-group{animation:hero-helix-breathe 12s ease-in-out infinite}
+@keyframes hero-helix-breathe{0%,100%{transform:scaleX(1) translateY(0)}50%{transform:scaleX(.88) translateY(5px)}}
+@media(max-width:480px){.hero .hero-dna{width:180px;opacity:.28}}
+@media(prefers-reduced-motion:reduce){.hero .hero-dna .helix-group{animation:none}}
+
+/* Sparse biological atmosphere, behind the existing composition. */
+.bio-suspension{width:108px;height:370px;left:5%;top:48%;opacity:.48;transform:rotate(-8deg);mask-image:linear-gradient(transparent,#000 15%,#000 85%,transparent)}
+.bio-glass{position:absolute;inset:0;border:1px solid #a2cb8335;border-radius:45px;background:linear-gradient(90deg,#8abe6a08,transparent 20%,#aee39208 70%,#d8ffc41c);box-shadow:inset 5px 0 12px #c8ffb908,inset -4px 0 8px #8acc5f0c;overflow:hidden}
+.bio-fluid{position:absolute;inset:24% 6px 0;border-radius:35% 35% 30px 30px / 6% 6% 30px 30px;background:linear-gradient(90deg,#163a2310,#49733b45 50%,#82b56220);box-shadow:inset 0 16px 25px #8db46c12;animation:bio-fluid-breathe 19s ease-in-out infinite}
+.bio-meniscus{position:absolute;left:0;right:0;top:0;height:13px;border:1px solid #b9e89c50;border-radius:50%;background:#7bb95a12}
+.bio-glass-seam{position:absolute;left:17%;top:7%;width:1px;height:85%;background:linear-gradient(transparent,#d9ffbb40,transparent)}
+.bio-bubble{position:absolute;left:var(--bubble-x);bottom:5%;width:var(--bubble-size);height:var(--bubble-size);border:1px solid #b7df9770;border-radius:50%;box-shadow:0 0 5px #86cf4215;animation:bio-bubble-rise 24s linear infinite;animation-delay:var(--bubble-delay)}
+.molecular-suspension{position:absolute;width:300px;height:300px;right:3%;top:6%;opacity:.48;filter:drop-shadow(0 0 7px #75b75b12)}
+.membrane-group{transform-origin:center;animation:membrane-drift 27s ease-in-out infinite}
+.environment-home .bio-suspension{left:47%;top:9%;width:88px;height:300px;opacity:.38;transform:rotate(12deg)}
+.environment-home .molecular-suspension{left:8%;right:auto;top:64%;width:240px;opacity:.5}
+.environment-home .dna-fragment{left:auto;right:7%;top:10%;width:125px;height:260px;opacity:.19;transform:rotate(18deg);mask-image:linear-gradient(transparent,#000 20%,#000 75%,transparent)}
+.environment-ability .environment-dna{right:-2%;width:285px;opacity:.14;mask-image:linear-gradient(transparent,#000 20%,#000 75%,transparent)}
+.environment-ability .bio-suspension{left:2%;top:65%;height:320px;width:100px;opacity:.36}
+.environment-ability .molecular-suspension{right:2%;top:38%;width:240px;opacity:.35}
+.environment-profile .bio-suspension{left:auto;right:1%;top:50%;width:70px;height:310px;opacity:.25}
+.environment-profile .molecular-suspension{right:17%;top:2%;width:190px;opacity:.3}
+.environment-toolkit .bio-suspension{left:1%;top:8%;width:80px;height:360px;opacity:.36}
+.environment-toolkit .molecular-suspension{right:3%;top:66%;width:230px;opacity:.4}
+.environment-dna .bridge{stroke:#a1d17d90}.environment-dna .node{fill:#b7e794;animation:biological-node-pulse 10s linear infinite;animation-delay:var(--node-delay)}
+.hero .hero-dna{opacity:.35}.hero .hero-dna .node{animation:biological-node-pulse 10s linear infinite;animation-delay:var(--node-delay)}
+@keyframes biological-node-pulse{0%,15%,100%{opacity:.55}7%{opacity:1;filter:drop-shadow(0 0 3px #aaff77)}}
+@keyframes bio-fluid-breathe{0%,100%{transform:translateY(0);opacity:.75}50%{transform:translateY(7px);opacity:1}}
+@keyframes bio-bubble-rise{0%{transform:translateY(0);opacity:0}15%,75%{opacity:.6}100%{transform:translateY(-260px);opacity:0}}
+@keyframes membrane-drift{0%,100%{transform:translate(0,0) rotate(-6deg)}50%{transform:translate(7px,-12px) rotate(4deg)}}
+@media(max-width:600px){.environment-home .bio-suspension{left:72%;top:13%;width:65px;height:240px;opacity:.28}.environment-home .dna-fragment{right:4%;top:64%;width:85px;height:200px;opacity:.14}.environment-home .molecular-suspension{left:-8%;top:70%;width:175px;opacity:.3}.environment-ability .bio-suspension{left:-25px;top:75%;opacity:.25}.environment-ability .environment-dna{right:-70px;width:180px;opacity:.1}.molecular-suspension{max-width:180px;opacity:.25}.hero .hero-dna{opacity:.3}}
+@media(prefers-reduced-motion:reduce){.bio-fluid,.bio-bubble,.membrane-group,.environment-dna .node,.hero .hero-dna .node{animation:none!important}.bio-bubble{opacity:.4}}
+
+/* Typography and spacing only: stronger reading hierarchy. */
+.archive-section{padding-block:100px 96px}
+.section-heading{margin-bottom:48px;gap:28px}
+.section-heading h2{font-size:clamp(49px,6.75vw,94px);line-height:1.1}
+.profile-section .section-heading h2{font-size:clamp(47px,6.1vw,85px)}
+.section-aside{flex-basis:290px;max-width:340px;font-size:18px;line-height:1.65}
+.profile-copy h3{font-size:35px;line-height:1.35}
+.profile-copy>p:not(.eyebrow),.mission-content>p,.mission-preview p,.ability-detail>p,.ability-detail li,.tool p,.contact-layout>div>p{font-size:18px;line-height:1.7}
+.profile-copy>p:not(.eyebrow){max-width:62ch}
+.ability-detail h3 .mode-title{font-size:clamp(25px,2.35vw,33px);line-height:1.4}
+.ability-detail h3{font-size:clamp(38px,4.55vw,65px)}
+.mission-content h3{font-size:clamp(32px,3.45vw,48px);line-height:1.25}
+.mission-preview h3{font-size:clamp(29px,3.2vw,46px);line-height:1.25}
+.tool h3{font-size:32px}.achievement h3{font-size:clamp(33px,3.6vw,50px);line-height:1.25}
+.contact-layout h2{font-size:clamp(47px,6.1vw,85px);line-height:1.12}
+.contact-layout>div>p{max-width:54ch}
+.archive-section .eyebrow,.archive-section .status,.ability-state,.mode-active-label{font-size:13px;line-height:1.6}
+.profile-meta dt,.mission-top,.mission-foot,.mission-metrics span,.slot-index,.mission-mode-label{font-size:12px;line-height:1.6}
+.profile-meta dd{font-size:17px}.capabilities{font-size:15px}
+.button,.outline-button,.scan-button{font-size:14px;line-height:1.5}
+#archive .memory-caption{font-size:12px;line-height:1.5;min-height:50px}
+.activation-hint>span{font-size:15px}.activation-copy>.eyebrow,.contact-layout .contact-activation-status{font-size:13px}
+.mission-selector{margin-bottom:30px;padding-block:26px}.profile-meta{margin-block:26px}
+@media(max-width:1000px){.section-aside{flex-basis:250px}.profile-copy h3{font-size:32px}.section-heading h2{font-size:clamp(43px,6.6vw,75px)}}
+@media(max-width:760px){.archive-section{padding-block:78px}.section-heading{margin-bottom:36px}.section-heading h2,.profile-section .section-heading h2{font-size:clamp(38px,8.8vw,63px);line-height:1.13}.section-aside{max-width:55ch;font-size:18px;margin-top:20px}.contact-layout h2{font-size:clamp(42px,8.5vw,65px)}.mission-content h3{font-size:36px}.ability-detail h3{font-size:49px}.ability-detail h3 .mode-title{font-size:29px}}
+@media(max-width:480px){.archive-section{padding-block:68px}.section-heading h2,.profile-section .section-heading h2{font-size:38px;line-height:1.15;overflow-wrap:normal}.profile-copy h3{font-size:29px}.section-aside,.profile-copy>p:not(.eyebrow),.mission-content>p,.mission-preview p,.ability-detail>p,.ability-detail li,.tool p,.contact-layout>div>p{font-size:17px}.ability-detail h3{font-size:41px}.ability-detail h3 .mode-title{font-size:26px}.mission-content h3,.mission-preview h3{font-size:33px}.tool h3{font-size:29px}.contact-layout h2{font-size:42px}.archive-section .eyebrow{font-size:12px;letter-spacing:1px}.mission-top,.mission-foot{font-size:11px}.button,.outline-button,.scan-button{font-size:13px}#archive .memory-caption{font-size:11px}.profile-meta dd{font-size:16px}.contact-device{margin-top:32px}}
+@media(max-width:360px){.section-heading h2,.profile-section .section-heading h2{font-size:34px}.contact-layout h2{font-size:37px}.ability-detail h3 .mode-title{font-size:24px}}
